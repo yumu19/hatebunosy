@@ -2,6 +2,11 @@
 	"name": "hatebunosy",
 	"description": "Gunosyにはてなブックマーク数を表示するChrome拡張",
 	"version": "1.0",
+	"icons": {
+		"16":"hatebunosy16.png",
+		"48":"hatebunosy48.png",
+		"128":"hatebunosy128.png"
+    },
 	"manifest_version": 2,
     "permissions": [
       "tabs", "http://gunosy.com/*", "http://api.b.st-hatena.com/*"
@@ -9,7 +14,8 @@
 	"content_scripts": [
 		{
 			"matches": ["http://gunosy.com/*"],
-			"js": ["jquery-1.9.0.min.js","addhatebu.js"]
+			"js": ["jquery-1.9.0.min.js","addhatebu.js"],
+			"css": ["hatebunosy.css"]
 		}
 
 	]
