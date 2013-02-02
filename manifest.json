@@ -1,0 +1,16 @@
+{
+	"name": "hatebunosy",
+	"description": "Gunosyにはてなブックマーク数を表示するChrome拡張",
+	"version": "1.0",
+	"manifest_version": 2,
+    "permissions": [
+      "tabs", "http://gunosy.com/*"
+    ],
+	"content_scripts": [
+		{
+			"matches": ["http://gunosy.com/*"],
+			"js": ["jquery-1.9.0.min.js","addhatebu.js"]
+		}
+
+	]
+}
