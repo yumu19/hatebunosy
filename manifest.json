@@ -4,7 +4,7 @@
 	"version": "1.0",
 	"manifest_version": 2,
     "permissions": [
-      "tabs", "http://gunosy.com/*"
+      "tabs", "http://gunosy.com/*", "http://api.b.st-hatena.com/*"
     ],
 	"content_scripts": [
 		{
