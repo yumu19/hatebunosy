@@ -1,0 +1,10 @@
+a.hatebunosy10, a:hover.hatebunosy10 {
+  color: #FF0000;
+  background: #FFCCCC;
+  text-decoration: underline;
+}
+a.hatebunosy, a:hover.hatebunosy {
+  color: #FF6666;
+  background: #FFF0F0;
+  text-decoration: underline;
+}
