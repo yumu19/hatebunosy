@@ -1,7 +1,7 @@
 {
 	"name": "hatebunosy",
 	"description": "Gunosyにはてなブックマーク数を表示するChrome拡張",
-	"version": "1.0",
+	"version": "1.1",
 	"icons": {
 		"16":"hatebunosy16.png",
 		"48":"hatebunosy48.png",
