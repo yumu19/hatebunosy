@@ -18,5 +18,8 @@
 			"css": ["hatebunosy.css"]
 		}
 
+	],
+	"web_accessible_resources" : [
+		"jquery.min.map"
 	]
 }
